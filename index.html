@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cb3859e059.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Credit Card</title>
+  </head>
+  <body>
+    <div class="card">
+      <form action="#">
+        <div class="card-info">
+          <div class="card-back">
+            <div class="strip"></div>
+            <input id="cvc" type="text" placeholder="CVC" />
+          </div>
+          <div class="card-front">
+            <input
+              class="info"
+              type="text"
+              placeholder="Holder of Card"
+              required
+            />
+            <input
+              class="info"
+              type="text"
+              placeholder="Number of Card"
+              required
+            />
+            <p>VALID THRU</p>
+
+            <input class="date" type="text" placeholder="MM" required />
+            <span>/</span>
+            <input class="date" type="text" placeholder="YY" required />
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-visa"></i>
+          </div>
+        </div>
+        <div class="sent">
+          <button>Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
